@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "hardhat": "hardhat",
-    "fixpack": "fixpack"
+    "fixpack": "fixpack",
+    "compile": "hardhat compile",
+    "transpile": "tsc -p ./tsconfig.transpile.json"
   },
   "author": "",
   "license": "ISC",

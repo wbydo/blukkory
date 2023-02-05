@@ -1,0 +1,14 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+    "@wbydo/blukkory-contracts#transpile": {
+      "dependsOn": ["@wbydo/blukkory-contracts#compile"],
+      "inputs": ["packages/contracts/typechain-types/**"],
+      "outputs": ["packages/contracts/dist/**"]
+    },
+    "@wbydo/blukkory-contracts#compile": {
+      "inputs": ["packages/contracts/contracts/**"],
+      "outputs": ["packages/contracts/typechain-types/**"]
+    }
+  }
+}
