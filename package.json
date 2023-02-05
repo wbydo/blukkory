@@ -1,0 +1,23 @@
+{
+  "name": "blukkory",
+  "description": "架空の BC プロジェクト",
+  "version": "0.0.0",
+  "author": "wbydo",
+  "bugs": {
+    "url": "https://github.com/wbydo/blukkory/issues"
+  },
+  "dependencies": {
+    "fixpack": "^4.0.0"
+  },
+  "homepage": "https://github.com/wbydo/blukkory#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wbydo/blukkory.git"
+  },
+  "scripts": {
+    "fixpack": "fixpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
